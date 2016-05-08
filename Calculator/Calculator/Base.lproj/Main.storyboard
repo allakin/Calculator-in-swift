@@ -169,7 +169,7 @@
                                             <color key="titleShadowColor" red="0.37104270813124862" green="0.59110441518654544" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="twoOperandsSignPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aKr-0w-rZB"/>
+                                            <action selector="twoOperandsSignPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zpS-NK-UIC"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="46t-6v-MdV">
@@ -206,6 +206,9 @@
                                         <state key="normal" title="=">
                                             <color key="titleShadowColor" red="0.37104270813124862" green="0.59110441518654544" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="equalitySignPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wpK-WZ-b3g"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TdT-wh-qoC">
                                         <rect key="frame" x="208" y="119" width="102" height="117"/>
@@ -226,7 +229,7 @@
                                             <color key="titleShadowColor" red="0.37104270813124862" green="0.59110441518654544" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="twoOperandsSignPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pD0-1j-w2l"/>
+                                            <action selector="twoOperandsSignPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LXm-Ci-VLm"/>
                                         </connections>
                                     </button>
                                 </subviews>
