@@ -98,11 +98,10 @@ class ViewController: UIViewController {
   }
   
   @IBAction func persentageButtonPressed(sender: UIButton) { //кнопка % от числа
-    if firstOperand == 0 {
-      currentInput = currentInput / 100
-    } else {
-      secondOperand = firstOperand * currentInput / 100
+    if stillTyping {
+      secondOperand = currentInput
     }
+    operateWithTwoOperands{$0 * $1 / 100}
   }
   
   @IBAction func squareRootButtonPressed(sender: UIButton) { //корень от числа

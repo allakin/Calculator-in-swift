@@ -371,6 +371,8 @@
                             <constraint firstAttribute="leadingMargin" secondItem="yN4-2G-pbJ" secondAttribute="leading" id="yno-9f-eOd"/>
                         </constraints>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="displayResultLabel" destination="yN4-2G-pbJ" id="8ua-EA-QyY"/>
