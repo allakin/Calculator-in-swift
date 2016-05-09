@@ -75,19 +75,21 @@ class ViewController: UIViewController {
     
     dotIsPlaced = false
     
-    switch operatorSign {
-    case "+":
-      operateWithTwoOperands{$0 + $1}
-    case "-":
-      operateWithTwoOperands{$0 - $1}
-    case "×":
-      operateWithTwoOperands{$0 * $1}
-    case "÷":
-      operateWithTwoOperands{$0 / $1}
-    default: break
-      
+    if secondOperand == 0 && operatorSign == "÷" {
+      displayResultLabel.text = "Ошибка"
+    } else {
+      switch operatorSign {
+      case "+":
+        operateWithTwoOperands{$0 + $1}
+      case "-":
+        operateWithTwoOperands{$0 - $1}
+      case "×":
+        operateWithTwoOperands{$0 * $1}
+      case "÷":
+        operateWithTwoOperands{$0 / $1}
+      default: break
+      }
     }
-    
   }
   
   @IBAction func clearButtonPressed(sender: UIButton) { //кнопка сброса чисел
