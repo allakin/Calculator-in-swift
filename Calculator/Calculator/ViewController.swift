@@ -75,6 +75,9 @@ class ViewController: UIViewController {
     
     dotIsPlaced = false
     
+    // Делить на Ноль(если второй операн равен 0
+    // и второй оператор равен / то показывать Ошибку
+    // если же нет то продолжать вычесления
     if secondOperand == 0 && operatorSign == "÷" {
       displayResultLabel.text = "Ошибка"
     } else {
