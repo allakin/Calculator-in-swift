@@ -153,7 +153,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kk1-UZ-Ryg">
                                         <rect key="frame" x="208" y="473" width="102" height="117"/>
                                         <color key="backgroundColor" red="0.82676282051282057" green="0.41585010001416844" blue="0.0023475758535007629" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <state key="normal" title=".">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" red="0.37104270813124862" green="0.59110441518654544" blue="1" alpha="1" colorSpace="calibratedRGB"/>
