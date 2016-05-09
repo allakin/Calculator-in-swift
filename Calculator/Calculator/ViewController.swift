@@ -25,7 +25,14 @@ class ViewController: UIViewController {
     }
     
     set {
-      displayResultLabel.text = "\(newValue)"
+      let value = "\(newValue)"
+      // разделитеть по .
+      let valueArray = value.componentsSeparatedByString(".")
+      if valueArray[1] == "0" {
+        displayResultLabel.text = "\(valueArray[0])"
+      } else {
+        displayResultLabel.text = "\(newValue)"
+      }
       stillTyping = false
     }
   }
