@@ -27,18 +27,6 @@
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ka4-bX-xjh">
                                 <rect key="frame" x="0.0" y="117" width="414" height="619"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LW3-DP-eTe">
-                                        <rect key="frame" x="1" y="1" width="102" height="117"/>
-                                        <color key="backgroundColor" red="0.95686274509803926" green="0.61416514175670189" blue="0.12520056842216298" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="C">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="titleShadowColor" red="0.37104270813124862" green="0.59110441518654544" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="clearButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1hP-pt-rmf"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XUD-XV-DMw">
                                         <rect key="frame" x="1" y="119" width="102" height="117"/>
                                         <color key="backgroundColor" red="0.97121747737556563" green="0.41983879503415211" blue="0.025540428375514717" alpha="1" colorSpace="calibratedRGB"/>
@@ -261,8 +249,20 @@
                                             <action selector="twoOperandsSignPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LXm-Ci-VLm"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LW3-DP-eTe">
+                                        <rect key="frame" x="1" y="1" width="102" height="117"/>
+                                        <color key="backgroundColor" red="0.95686274509803926" green="0.61416514175670189" blue="0.12520056842216298" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="C">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" red="0.37104270813124862" green="0.59110441518654544" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="clearButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1hP-pt-rmf"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="tDy-4y-T8w" firstAttribute="height" secondItem="LW3-DP-eTe" secondAttribute="height" id="0aM-j6-1Jo"/>
                                     <constraint firstItem="BFR-qw-cAC" firstAttribute="leading" secondItem="TdT-wh-qoC" secondAttribute="trailing" constant="1" id="0vk-nC-bcw"/>
